@@ -128,7 +128,6 @@ def num_points_scored(name)
   end
 end
 
-puts num_points_scored("Alan Anderson")
 
 def shoe_size(name)
   if game_hash[:home][:players].keys.include?(name)
@@ -166,6 +165,7 @@ def team_names
   teams
 end
 
+puts team_names
 
 def player_numbers(team)
   numbers = []
