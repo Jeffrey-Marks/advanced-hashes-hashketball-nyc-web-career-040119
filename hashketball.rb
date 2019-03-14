@@ -165,8 +165,6 @@ def team_names
   teams
 end
 
-puts team_names.inspect
-
 def player_numbers(team)
   numbers = []
 
