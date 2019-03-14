@@ -213,8 +213,5 @@ def big_shoe_rebounds
     end
   end
   
-  puts biggest_player
   num_rebounds
 end
-
-puts big_shoe_rebounds
